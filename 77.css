@@ -1,0 +1,90 @@
+body {background:#000;margin:1px;padding:1px;color:#888;font-size:14px;font-family:arial;border:1px solid #555}
+h1,h2,h3,h4,h5,h6 {font-size:18px} a {color:#fe8f17}
+#header {margin:0;padding:0px;text-align:center;border:1px solid #5c2901;}
+#header .heading{margin:0;padding:5px}
+
+#header .heading a {;padding:0px}
+#header .description {;padding:5px ;margin:0;font-size:12px;font-weight:normal;}
+
+#navigation {margin:0;padding:5px}
+
+#navigation span+span+span a{content:'Down'}
+#navigation span{;padding:2px 0;margin:0 2px;border:1px solid #600;display:inline-block;width:20%}
+#navigation span a{padding:0px;margin:0px}
+#top-content {margin:1px 0;padding:5px;text-align:center;border:1px solid #555}
+#search-form{margin:0px ;padding:0px;}
+#search-form .inp-text {margin:1px;padding:1px;border:1px solid #555;width:65%;background:#000}
+#search-form .inp-btn {;margin:1px;padding:1px 5px;color:#666;border:1px solid #555;;background:#000}
+#content {margin:0px;padding:0px}
+.post{border:1px solid #056;margin:1px 0;padding:5px 5px 5px 60px;position:relative;background:#000;}
+.post-single{border:1px solid #056;margin:1px 0;padding:0px;}
+.post-single .post-meta{padding:5px;border:1px solid #056;margin:1px;background:#000;font-weight:bold}
+.post .post-meta{padding:0px;margin:0px;font-weight:bold}
+
+.post-meta .title {margin:0px;padding:0;font-size:16px;color:#f81;font-size:small}
+.post-single .post-meta .title:before {margin:0 3px 0 0;}
+.post-meta .title a{padding:0;margin:0}
+.thumbnail {border:1px solid #056 !important;width:45px !important;height:50px !important;float:left !important;padding:1px !important;margin:4px 4px 0px 0px !important;position:absolute;top:5px;left:5px}
+
+.post .post-content{padding:5px;margin:0;font-size:0px !important}
+.post-single .post-content{margin:0px;padding:5px;}
+
+.post-meta .categories{font-size:small;color:#050;margin:0}
+.post-meta .categories a{padding:0px}
+.post-meta2 {margin:-20px 0 0;padding:0px 5px 5px;text-align:right}
+
+.post-meta2 a{margin:0px;padding:3px;border:1px solid #600}
+#share-buttons {margin:1px;padding:5px;border:1px solid #555}
+#share-buttons:before {content:'Share On : ';margin:5px 2px 0 0;font-weight:bold}
+#share-buttons a{content:'[Facebook]';color:#359;padding:0px;font-weight:bold}
+#share-buttons a+a {content:'[Twitter]';color:#0cd;padding:0 3px;font-weight:bold}
+#recent-posts-list h4{;margin:0px;padding:0px 5px;color:#aaa;font-weight:bold;font-size:14px;content:'Recent Posts :'}
+#recent-posts-list li:before{;float:left;border-top:4px solid #000;border-left:4px solid #600;border-bottom:4px solid #000;width:0px;content:' ';display:block;margin:2px 2px 0px}
+#recent-posts-list li {list-style:none;margin:0px;padding:3px 8px}
+#recent-posts-list li a{;margin:4px 2px;border-bottom:1px dotted #888;font-weight:bold}
+#recent-posts-list ol{margin:0px;padding:0px;}
+#recent-posts-list {margin:1px;padding:5px;border:1px solid #555}
+#comments {margin:0px;padding:0}
+#comments h3{;margin:0px;padding:5px;color:#eee;font-weight:bold;font-size:14px;background:#666;border:1px solid #056}
+#comments .comment {;background:#066;margin:1px 0;padding:0px;border:1px solid #555}
+#comments .comment .comment-header:before {;border-top:4px solid #000;border-left:4px solid #056;border-bottom:4px solid #000;width:0px;content:' ';display:block;margin:2px 3px 0 0px;float:left}
+#comments .comment-content{margin:0px;padding:0 5px 5px}
+#comments .comment .comment-header {;padding:5px 5px 0;margin:0;color:#056;font-size:14px}
+#comments .comment .comment-header .title a{margin:0 3px 0 0;padding:0px;font-size:12px;float:left}
+#comments .comment h5{padding:0}
+#comments h3 a {color:#eee;font-size:16px}
+#comments h4 {;margin:1px 0 0;font-size:16px;padding:5px 5px 0;border:1px solid #600;border-bottom:0px}#comments h5{margin:0 0 1px;font-size:16px;padding:0 5px 5px;background:#666;border:1px solid #600;border-top:0px}
+#comments .comment .comment-header .title {border:none;background:#000}
+#comment_form {;padding:5px;margin:1px 0;max-width:100%;border:solid 1px #520}
+#comment_form .inp-textarea {border:1px solid #520;margin:2px 0;color:#aaa;width:80%padding:10px}
+#comment_form .inp-text {border:1px solid #520;width:50%;color:#aaa;padding:3px 0;margin:2px 0;}
+#comment_form .inp-btn{margin:1px;padding:2px;border:1px solid #600;color:#f84}
+.highlight, .messages {border:1px solid #056;margin:1px 0;padding:5px;}
+#pagination-links {padding:5px;margin:1px 0;border:#555 1px solid}
+#pagination-links span {;margin:0px;padding:3px;color:#fe8f17;border:1px solid #5c2901;background:#000}
+#pagination-links a:first-child{content:'Back';margin:0px}
+#pagination-links a:last-child{content:'Next';margin:0}
+#pagination-links a {display:inline-block;margin:0 0 2px;padding:3px;border:solid 1px #555;background:#000;color:#666}
+
+#following-list h4, #blogroll_list h3,#navigation-menu h3, #category-bottom h3,#blogroll h3{;margin:0px;padding:5px;color:#eee;font-weight:bold;font-size:14px;;border:1px solid #056;background:#000}
+#bottom-content, #following-list,#blogroll_list {margin:0;padding:0px}
+#navigation-menu h3 a, #blogroll_list h3 a ,#follming-list h4 a{color:#eee}
+#bottom-content li a {padding:0;margin:0}
+#bottom-content li, #blogroll_list li, #following-list li {list-style:none;background:#000;margin:1px 0;padding:4px 5px;border:1px solid #555}
+#category-bottom li,#blogroll li, #blogroll_list li, #following-list li {margin:1px}
+#bottom-content ul, #blogroll_list, #blogroll_list ol, #following-list ol{padding:0;margin:0px}
+#navigation-menu,#blogroll,#category-bottom{font-size:12px;padding:0px 0px;margin:0px 0px}
+
+#navigation-menu ul{padding:0px;margin:0px}
+#navigation-menu h5{padding:4px 5px;margin:-5px -6px;background:#000;text-align:center;border:1px solid #600;font-size:12px;font-weight:bold}
+
+
+#blogroll,#category-bottom {padding:0}
+#blogroll li:before,#blogroll-list li:before{;float:left;border-top:4px solid #000;border-left:4px solid #600;border-bottom:4px solid #000;width:0px;content:' ';display:block;margin:2px 3px 0 0px}
+#category-bottom li:before,#following-list li:before{;float:left;border-top:4px solid #000;border-left:4px solid #056;border-bottom:4px solid #000;width:0px;content:' ';display:block;margin:2px 3px 0 0px}
+
+#footer {margin:0px;padding:5px;text-align:center;color:#eee;border:1px solid #5c2901;}
+#footer #powered-by:before {content:'Theme By Anjana Larka';display:block;font-weight:bold}
+#footer a {margin:0px;padding:0px;font-size:12px !important}
+#footer #powered-by {font-size:12px;margin:0px;padding:0px}
+#footer span{background:none!important; border:0!important; color:#930 !important}
